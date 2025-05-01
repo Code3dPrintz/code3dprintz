@@ -9,7 +9,7 @@ body {
 }
 
 logo.logo {
-    width: 5px;
+    width: 8px;
     height: auto;
     margin-bottom: 20px;
     display: flex;
@@ -35,7 +35,7 @@ header.hero::before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 33%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     z-index: 0;
