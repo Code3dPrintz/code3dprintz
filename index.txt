@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-3dPrintz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="YOUR_IMAGE_URL" alt="Hero Image" class="hero-image">
+        <h1>Code-3dPrintz</h1>
+        <p>"Knitting Law Enforcement and the Public together, one print at a time"</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Code-3dPrintz</h2>
+        <p>We are a small Arkansas-based business that specializes in the creation and sale of custom 3D printed items. From personalized products to professional-grade accessories, we pride ourselves on high-quality, made-to-order solutions. A portion of our profits is donated to law enforcement-supporting nonprofits to help strengthen the community.</p>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>We are committed to supporting law enforcement and fostering better community relations through our work. Your purchase helps contribute to these efforts.</p>
+    </section>
+
+    <!-- Custom Order Form -->
+    <section id="contact">
+        <h2>Place a Custom Order</h2>
+        <form action="mailto:Code3dPrintz@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="description">Description of Item:</label>
+            <textarea id="description" name="description" required></textarea><br>
+            
+            <label for="size">Size:</label>
+            <input type="text" id="size" name="size" required><br>
+
+            <label for="use">Intended Use:</label>
+            <input type="text" id="use" name="use" required><br>
+
+            <label for="rush">Premium Rush Order?</label>
+            <input type="checkbox" id="rush" name="rush"><br>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at: Code3dPrintz@gmail.com</p>
+    </footer>
+</body>
+</html>
