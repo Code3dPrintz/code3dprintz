@@ -1,7 +1,7 @@
 
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -9,24 +9,41 @@ body {
 }
 
 logo.logo {
-    width: 75px;
+    width: 200px;
     height: auto;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header.hero {
-    background: url('image/background.jpg') center/cover no-repeat;
+    position: relative;
+    background: url('images/background.jpg') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
-    font-size: 2rem;
+    color: light blue;
+    font-size: 4rem;
+    z-index: 1;
 }
 
+header.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
 header .hero-text {
-    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 2;
+    background: none;
     padding: 20px;
 }
 
